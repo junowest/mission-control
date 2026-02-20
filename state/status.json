@@ -1,0 +1,188 @@
+{
+  "lastUpdated": "2026-02-20T15:26:00Z",
+  "mission": {
+    "goal": "100 users in 30 days",
+    "daysRemaining": 30,
+    "currentUsers": 0,
+    "targetUsers": 100,
+    "startDate": "2026-02-20"
+  },
+  "agents": [
+    {
+      "id": "juno",
+      "name": "Juno",
+      "role": "Mission Commander",
+      "emoji": "🚀",
+      "status": "active",
+      "currentTask": "Coordinating marketing team launch",
+      "lastSeen": "2026-02-20T15:26:00Z",
+      "tasksCompleted": 1,
+      "tasksTotal": 3
+    },
+    {
+      "id": "content",
+      "name": "Content Agent",
+      "role": "Content & Copywriting",
+      "emoji": "✍️",
+      "status": "idle",
+      "currentTask": null,
+      "lastSeen": null,
+      "tasksCompleted": 0,
+      "tasksTotal": 2
+    },
+    {
+      "id": "seo",
+      "name": "SEO Agent",
+      "role": "SEO & Growth Hacking",
+      "emoji": "📈",
+      "status": "idle",
+      "currentTask": null,
+      "lastSeen": null,
+      "tasksCompleted": 0,
+      "tasksTotal": 1
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach Agent",
+      "role": "Dev Community Outreach",
+      "emoji": "📡",
+      "status": "idle",
+      "currentTask": null,
+      "lastSeen": null,
+      "tasksCompleted": 0,
+      "tasksTotal": 1
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics Agent",
+      "role": "Metrics & Reporting",
+      "emoji": "📊",
+      "status": "idle",
+      "currentTask": null,
+      "lastSeen": null,
+      "tasksCompleted": 0,
+      "tasksTotal": 1
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Define marketing strategy",
+      "description": "Identify top channels: HN, Reddit, Twitter/X, ProductHunt, dev Discord servers",
+      "assignedTo": "juno",
+      "status": "in-progress",
+      "priority": "high",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:25:00Z"
+    },
+    {
+      "id": "task-002",
+      "title": "Build Mission Control Dashboard",
+      "description": "Create visibility dashboard for Boss to track agent activity and progress",
+      "assignedTo": "juno",
+      "status": "done",
+      "priority": "high",
+      "createdAt": "2026-02-20T15:25:00Z",
+      "updatedAt": "2026-02-20T15:30:00Z"
+    },
+    {
+      "id": "task-003",
+      "title": "Write launch blog post",
+      "description": "SEO-optimized post: 'ElevenLabs alternative at 1/10th the cost'",
+      "assignedTo": "content",
+      "status": "todo",
+      "priority": "high",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": "task-004",
+      "title": "Reddit launch posts",
+      "description": "Craft genuine helpful posts for r/selfhosted, r/MachineLearning, r/webdev",
+      "assignedTo": "outreach",
+      "status": "todo",
+      "priority": "high",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": "task-005",
+      "title": "Product Hunt launch prep",
+      "description": "Prepare assets, tagline, screenshots, GIF demo for PH submission",
+      "assignedTo": "content",
+      "status": "todo",
+      "priority": "medium",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": "task-006",
+      "title": "SEO keyword research",
+      "description": "Target: 'ElevenLabs alternative', 'cheap TTS API', 'voice cloning API free'",
+      "assignedTo": "seo",
+      "status": "todo",
+      "priority": "medium",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": "task-007",
+      "title": "Set up analytics tracking",
+      "description": "Track signups, API calls, conversion funnel from landing page",
+      "assignedTo": "analytics",
+      "status": "todo",
+      "priority": "medium",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    },
+    {
+      "id": "task-008",
+      "title": "Hacker News Show HN post",
+      "description": "Submit 'Show HN: LeanVox – TTS API at 1/10th ElevenLabs price'",
+      "assignedTo": "juno",
+      "status": "todo",
+      "priority": "high",
+      "createdAt": "2026-02-20T15:00:00Z",
+      "updatedAt": "2026-02-20T15:00:00Z"
+    }
+  ],
+  "activity": [
+    {
+      "timestamp": "2026-02-20T15:30:00Z",
+      "agent": "Juno",
+      "emoji": "🚀",
+      "message": "Mission Control Dashboard deployed ✅"
+    },
+    {
+      "timestamp": "2026-02-20T15:26:00Z",
+      "agent": "Juno",
+      "emoji": "🚀",
+      "message": "Mission Control Dashboard build initiated"
+    },
+    {
+      "timestamp": "2026-02-20T15:25:00Z",
+      "agent": "Juno",
+      "emoji": "🚀",
+      "message": "Boss approved mission: 100 users in 30 days. Team assembly starting."
+    },
+    {
+      "timestamp": "2026-02-20T10:50:00Z",
+      "agent": "Juno",
+      "emoji": "🚀",
+      "message": "Telegram channel connected — comms live"
+    },
+    {
+      "timestamp": "2026-02-20T09:58:00Z",
+      "agent": "Juno",
+      "emoji": "🚀",
+      "message": "Switched model to claude-sonnet-4-6 — token usage optimized"
+    }
+  ],
+  "metrics": {
+    "signupsToday": 0,
+    "signupsTotal": 0,
+    "apiCallsToday": 0,
+    "conversionRate": 0,
+    "dailySignups": []
+  }
+}
